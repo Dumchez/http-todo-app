@@ -4,6 +4,7 @@ import (
 	"github.com/Dumchez/http-todo-app/pkg/service"
 	"github.com/gin-gonic/gin"
 
+	_ "github.com/Dumchez/http-todo-app/docs"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
 )

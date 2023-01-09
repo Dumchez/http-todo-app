@@ -16,6 +16,17 @@ import (
 	"github.com/spf13/viper"
 )
 
+// @title TODO APP API
+// @version 1.0
+// @description Swagger API Documentation for TODO APP
+
+// @host localhost:8000
+// @BasePath /
+
+// @securityDefinitions.apiKey ApiKeyAuth
+// @in header
+// @name Authorization
+
 func main() {
 	logrus.SetFormatter(&logrus.JSONFormatter{})
 	if err := initConfig(); err != nil {
